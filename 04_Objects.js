@@ -22,4 +22,4 @@ console.log(Product);
 delete Product.newProperty;
 console.log(Product);
 
-//Why we use objects
+// Why we use Objects? -->> lets us use and group multiple values
