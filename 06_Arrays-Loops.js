@@ -54,12 +54,20 @@ let fruits = ["Apple", "Banana", "Orange", "Mango"];
 let mixedArray = [1, "Hello", true, { key: "value" }];
 
 // Example of a for loop to iterate over an array
-for (let i = 0; i < 
-  // Example of a for loop to iterate over an array
 for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
 }
+
 // Example of a for loop to iterate over an array
 for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Example of a do-while loop to iterate over an array
+let j = 0;
+do {
+  console.log(mixedArray[j]);
+  j++;
+} while (j < mixedArray.length);
