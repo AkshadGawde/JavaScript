@@ -20,7 +20,21 @@
         console.log(function1);
         console.log(typeof function1);
         function1();
+
+        const object1 = {
+            name: 'John',
+            age: 25,
+            greet: function greetings() {
+                console.log('Hello again');
+            }
+        }
+        object1.greet();
     </script>
+
+    <button onclick="greet()">Click Me</button>
+    <button ondblclick="function1()">Click Me 2x</button>
+
+    <button onmouseover="object1.greet()">HEYY USER</button>
 </body>
 
 </html>
